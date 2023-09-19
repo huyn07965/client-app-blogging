@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PostCategory from "./PostCategory";
 import PostImage from "./PostImage";
-import PostMeta from "./PostMeta";
+import PostMeta from "./Postmeta";
 import PostTitle from "./PostTitle";
 import slugify from "slugify";
 import { useAuth } from "../../contexts/auth-context";

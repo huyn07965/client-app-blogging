@@ -18,7 +18,7 @@ import PostFeatureItem from "./posts/PostFeatureItem";
 import PostImage from "./posts/PostImage";
 import PostItem from "./posts/PostItem";
 import PostManage from "./posts/PostManage";
-import PostMeta from "./posts/PostMeta";
+import PostMeta from "./posts/Postmeta";
 import PostNewestItems from "./posts/PostNewestItems";
 import PostNewestItemsMore from "./posts/PostNewestItemsMore";
 import PostNewestLarge from "./posts/PostNewestLarge";
