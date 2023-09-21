@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { baseUrl } from "../utils/constants";
+import { useTranslation } from "react-i18next";
 
 const BlogPageStyles = styled.div`
   @media screen and (max-width: 600px) {
@@ -13,6 +14,7 @@ const BlogPageStyles = styled.div`
 `;
 
 const BlogPage = () => {
+  const { t } = useTranslation();
   const [post, setPost] = useState([]);
   const [filter, setFilter] = useState({
     likeFilter: "",
@@ -75,7 +77,7 @@ const BlogPage = () => {
       <Layout>
         <LayoutCategory
           post={post}
-          title="Blog"
+          title={t("blog")}
           getFilter={handleGetFilter}
           checkFilter={true}
           loading={loading}
