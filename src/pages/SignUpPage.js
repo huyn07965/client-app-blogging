@@ -103,7 +103,10 @@ const SignUpPage = () => {
       slug: "",
       role: 3,
       status: 1,
-      description: "",
+      description:
+        "Là thành viên kì cựu của công ty, tham gia từ rất sớm, là một trong những thành viên cốt cán sáng lập công ty",
+      descriptionEN:
+        "As a long-standing member of the company, joining from its early days and being one of the core founding members of the company",
       watchLater: [],
       likePost: [],
       follow: [],
